@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Episode",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "format",
+    "status",
+    "guest",
+    "assets",
+    "channels"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "format": {
+      "enum": [
+        "interview",
+        "solo",
+        "panel",
+        "clip"
+      ]
+    },
+    "status": {
+      "enum": [
+        "idea",
+        "sourced",
+        "scheduled",
+        "recorded",
+        "editing",
+        "ready",
+        "published",
+        "archived"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "guest": {
+      "type": "object"
+    },
+    "assets": {
+      "type": "object"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

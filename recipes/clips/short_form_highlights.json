@@ -1,0 +1,14 @@
+{
+  "name": "short_form_highlights",
+  "clip_count": 3,
+  "duration_seconds": {
+    "min": 20,
+    "max": 90
+  },
+  "selection_criteria": [
+    "standalone",
+    "specific",
+    "emotional or tactical",
+    "no private details"
+  ]
+}

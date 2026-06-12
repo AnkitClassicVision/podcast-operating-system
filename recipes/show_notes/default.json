@@ -1,0 +1,10 @@
+{
+  "name": "default_show_notes",
+  "sections": [
+    "summary",
+    "takeaways",
+    "links",
+    "guest bio",
+    "watch/listen"
+  ]
+}

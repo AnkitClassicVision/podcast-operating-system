@@ -1,0 +1,23 @@
+{
+  "title": "ContentPack",
+  "type": "object",
+  "required": [
+    "episode_id",
+    "show_notes",
+    "social_posts"
+  ],
+  "properties": {
+    "episode_id": {
+      "type": "string"
+    },
+    "show_notes": {
+      "type": "string"
+    },
+    "clip_candidates": {
+      "type": "array"
+    },
+    "social_posts": {
+      "type": "array"
+    }
+  }
+}

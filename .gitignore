@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+podcast.config.json
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Private podcast data
+private/
+episodes/
+raw/
+media/
+exports/
+logs/
+transcripts/
+recordings/
+
+# Local tooling
+.DS_Store
+.idea/
+.vscode/
+.run-project/
+.hermes/
+.claude/

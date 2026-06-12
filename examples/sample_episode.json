@@ -1,0 +1,25 @@
+{
+  "id": "example-001",
+  "title": "How operators build repeatable creative systems",
+  "format": "interview",
+  "status": "recorded",
+  "topic": "turning creative processes into systems",
+  "summary": "A practical conversation about turning a one-off creative process into a repeatable workflow.",
+  "guest": {
+    "name": "Jordan Example",
+    "role": "operator and builder",
+    "company": "Example Co"
+  },
+  "assets": {
+    "raw_video": "raw/example-001/input.mp4",
+    "transcript": "transcripts/example-001.txt",
+    "final_video": "exports/example-001/final.mp4",
+    "audio": "exports/example-001/podcast.mp3"
+  },
+  "channels": [
+    "youtube",
+    "rss",
+    "linkedin",
+    "shorts"
+  ]
+}

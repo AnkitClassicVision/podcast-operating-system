@@ -1,0 +1,30 @@
+{
+  "podcast": {
+    "name": "Example Podcast",
+    "host_name": "Example Host",
+    "timezone": "America/New_York",
+    "brand_voice": "clear, practical, generous"
+  },
+  "workflow": {
+    "cms": "local_json",
+    "storage": "local_files",
+    "recording": "manual_upload",
+    "editing": "local_ffmpeg",
+    "publishing": "manual_export",
+    "social": "manual_csv",
+    "analytics": "manual_snapshot"
+  },
+  "prompt_pack": "default",
+  "recipes": {
+    "episode_brief": "default",
+    "editing": "interview_cleanup",
+    "show_notes": "default",
+    "clips": "short_form_highlights",
+    "social": "founder_led_launch"
+  },
+  "safety": {
+    "dry_run_default": true,
+    "require_publish_confirmation": true,
+    "block_private_data": true
+  }
+}

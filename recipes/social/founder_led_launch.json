@@ -1,0 +1,11 @@
+{
+  "name": "founder_led_launch",
+  "outputs": [
+    "linkedin launch post",
+    "guest-share copy",
+    "newsletter blurb",
+    "short-form captions"
+  ],
+  "connector": "manual_csv",
+  "publish_policy": "draft only by default"
+}

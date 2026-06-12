@@ -1,0 +1,27 @@
+{
+  "title": "SocialPost",
+  "type": "object",
+  "required": [
+    "platform",
+    "copy"
+  ],
+  "properties": {
+    "platform": {
+      "type": "string"
+    },
+    "copy": {
+      "type": "string"
+    },
+    "asset_path": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "scheduled",
+        "published"
+      ]
+    }
+  }
+}

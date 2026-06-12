@@ -1,0 +1,19 @@
+{
+  "name": "interview_cleanup",
+  "inputs": [
+    "raw_video",
+    "transcript",
+    "intro",
+    "outro"
+  ],
+  "steps": [
+    "probe media",
+    "normalize audio to -16 LUFS",
+    "assemble intro + recording + outro",
+    "export video and mp3",
+    "select clips",
+    "run publishing QA"
+  ],
+  "tool": "local_ffmpeg",
+  "output": "exports/<episode_id>/"
+}

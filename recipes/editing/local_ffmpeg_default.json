@@ -1,0 +1,7 @@
+{
+  "name": "local_ffmpeg_default",
+  "tool": "ffmpeg",
+  "audio_target": "-16 LUFS",
+  "video_target": "1080p h264/aac",
+  "dry_run_default": true
+}

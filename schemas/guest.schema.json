@@ -1,0 +1,27 @@
+{
+  "title": "Guest",
+  "type": "object",
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
